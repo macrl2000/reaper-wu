@@ -85,7 +85,7 @@ Host script results:
 |_clock-skew: -1s
 ```
 
-So quick-checking the http server results in a default IIS page without any content, for the RDP, we have no credentials and 5040 does not has anything also. We are left with 2 ports to further investigate: FTP with some files which we will grab and also a custom looking service listening on port 4141.
+So quick-checking the http server results in a default IIS page without any content, for the RDP, we have no credentials and 5040 does not have anything either. We are left with 2 ports to further investigate: FTP with some files which we will grab and also a custom looking service listening on port 4141.
 
 ### FTP
 
