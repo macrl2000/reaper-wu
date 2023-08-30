@@ -21,7 +21,7 @@ Reaper is an insane binexp related box playable at https://www.vulnlab.com
 - [shell as reaper\keysvc](#shell-as-reaperkeysvc)   
 
 [privilege escalation](#privilege-escalation)
-- [analysing the reaper.sys driver](#analyzing-the-reapersys-driver)
+- [analysing the reaper.sys driver](#analysing-the-reapersys-driver)
 - [some notes on debug setup](#some-notes-on-debug-setup)
 - [writing the exploit](#writing-the-exploit)
 - [shell as nt authority\system](#shell-as-nt-authoritysystem)
