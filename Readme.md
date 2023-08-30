@@ -171,7 +171,7 @@ Don't be surprised about the names of the functions or the code having nice name
 
 ## binexp
 So, can we exploit this? What do we have and what do we need?
-- We notice all the functions we analysed do not use any kind of stack protection (stack cookies), so a classic stack overflow would be possible if we find a short buffer somewhere, where we can send more data than which the buffer can hold.
+- We notice all the functions we analysed do not use any kind of stack protection (stack cookies), so a classic stack overflow would be possible if we find a buffer somewhere, where we can send more data than the buffer can hold.
 - A quick check of the binary in x64dbg, the memory map shows us the stack is not executable (NX), so it would not be possible to directly run shellcode, but ROP would be an option.
 - We also face a dynamic, position independent executable, which means if we want to use ROP, we would need a leak of the programs base address first in order to use ROP gadgets.
 
