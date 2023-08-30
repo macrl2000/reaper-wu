@@ -482,7 +482,7 @@ and we got the password :-) remembering the open RDP port we will instantly try 
 
 `xfreerdp /v:$box /u:keysvc /p:<redacted> /size:1400x1050`
 
-and yes it works, we now have a nice working environment for the next step, which might be something related to the reaper.sys driver we found in ``c:\\driver``. If the software quality of the developers working on this box is the same, we might be lucky to find another bug in this driver’s code which will aid in escalating privileges.
+and yes it works, we now have a nice working environment for the next step, which might be something related to the reaper.sys driver we found in ``c:\driver``. If the software quality of the developers working on this box is the same, we might be lucky to find another bug in this driver’s code which will aid in escalating privileges.
 
 # privilege escalation
 Now finally having a RDP session, we can see that we are sitting on a Windows 2022 server as user keysvc. our next steps will be to analyse the driver and build us a debug environment matching the box as close as possible, so we can debug the driver locally with a kernel debugger.
