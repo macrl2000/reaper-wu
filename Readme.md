@@ -504,7 +504,7 @@ The driver is pretty small, so we can skip all install/setup/loading code and fo
 This is the commented ``ioctl_handler`` function:
 ![kernel_driver](/images/kernel_driver.png)
 
-Obviously we were lucky and got our kernel write served on a silver plate without too much hassle for doing stuff like abusing kernel heap or other advanced techniques. What's left to do is write code that interacts with the driver and abuses the IOCTL's at hand which we can leverage the arb read/write to for example steal some process token of the system process and copy it to our own process or get shellcode execution via more advanced techniques.
+Obviously we were lucky and got our kernel write served on a silver plate without too much hassle for doing stuff like abusing kernel heap or other advanced techniques. What's left to do is write code that interacts with the driver and abuses the IOCTL's at hand with which we can leverage the arb read/write to for example steal some process token of the system process and copy it to our own process or get shellcode execution via more advanced techniques.
 
 ## some notes on debug setup
 
