@@ -439,7 +439,7 @@ C:\keysvc>$
 ```
 
 ## shell as reaper\\keysvc
-So, we made it onto the box :-) let’s look around a bit. We upload winpeas for enumeration to ``c:\\programdata`` and look for stuff which sticks out. I found two interesting things:
+So, we made it onto the box :-) let’s look around a bit. We upload winpeas for enumeration to ``c:\programdata`` and look for stuff which sticks out. I found two interesting things:
 - a driver directory on c:\ with a definitely non-standard driver named reaper.sys :-)
 - a PowerShell command history file
 
